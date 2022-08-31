@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is technical task & backend server on apollo server",
+  "main": "index.js",
+  "scripts": {
+    "devserv": "nodemon index"
+  },
+  "author": "Pardeep Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.10.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
